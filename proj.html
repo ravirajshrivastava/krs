@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proj.css">
+    <title>Document</title>
+</head>
+<body style="background-color: #6BDBE8">
+    <div class = box-main>
+        <section class = "box-content">
+            <div class="headings"><h1>What does your Name say about your
+                PERSONALITY ?</h1>
+            </div>
+            <div  class="name-gender"> 
+                <div>
+                    <input type="text" name="name" class="name"
+                    placeholder="Name">
+                </div>
+                <div class="selector">
+                    <div id="select-field" onclick="toggleSelectMenu()">
+                    <p class="select-text">Gender</p>
+                    <img src="	https://joeschmoe-io.pages.dev/Img/arrow.png" alt="arrow" id="arrowIcon" class="rotate">
+                    </div>
+                    <ul id="list" class="hide">
+                        <li class="options" onclick="select(`Male`)">
+                            <img src=".//boy.gif" alt="" srcset="">
+                            <p>Male</p>
+                        </li>
+                        <li class="options" onclick="select(`Female`)">
+                            <img src=".//girlG.gif" alt="" srcset="">
+                            <p>Female</p>
+                        </li>
+                        <li class="options" onclick="select(`Others`)">
+                            <img src="https://img.freepik.com/free-vector/blue-gender-symbol-other-gender_277625-1823.jpg" alt="" srcset="">
+                            <p>Others</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="avatar">
+                <img src=".//girl.gif" alt="" id="avatar-ImgScr">
+            </div>
+            <div class="container" onclick="onSubmit()">
+                <span class="btn">
+                    <svg id="svgTag">
+                    <linearGradient id="grad1">
+                        <stop offset="0%" stop-color="#FF8282"></stop>
+                        <stop offset="100%" stop-color="#E178ED"></stop>
+                    </linearGradient>
+                 <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+              </svg>
+                    <span>See</span>
+                </span>
+            </div>
+            <button class="btnMobo" onclick="onSubmit()"><p>See</p>
+            </button>
+            
+        </section>
+    </div>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+
+
+    <script src="proj.js"></script>
+</body>
+</html>
