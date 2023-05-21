@@ -1,0 +1,85 @@
+*
+{
+    margin: 20px;
+    padding: 0px;
+    box-sizing:border-box;
+    border-radius: 20px;
+    /* background-color:rgb(159, 127, 159) */
+}
+.container
+{
+    max-width: 80%;
+    /* background-color: violet; */
+    padding: 34px;
+    /* margin: 34px; */
+    margin: auto;
+}
+.container h1,p
+{
+    text-align: center;
+    margin-top: 5px;
+}
+h1
+{
+    /* background-color: violet; */
+    font-size: 40px;
+    font-family: 'Poltawski Nowy', serif;
+}
+p
+{
+    font-size: 20px;
+    /* background-color: violet; 
+    */
+    font-family: 'Poltawski Nowy', serif;
+}
+input, textarea
+{
+    display: block;
+    width: 60%;
+    margin: auto;
+    margin-top: 25px;
+    padding: 7px;
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: aliceblue;
+    font-family: 'Vollkorn', serif;
+}
+.button
+{
+    display: flex;
+    
+}
+.btn
+{
+    font-size: 25px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    padding: 20px;
+    cursor:pointer;
+    background-color: brown;
+}
+
+form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg
+{
+    width: 100%;
+    opacity: 0.6;
+    z-index: -50;
+    position: absolute;
+
+}
+.SubmitMsg
+{
+    color:  green;
+    /* border: 10px; */
+}
